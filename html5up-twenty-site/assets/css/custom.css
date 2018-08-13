@@ -1,0 +1,23 @@
+.logo.white {
+    filter: brightness(0) invert(1);
+}
+
+.logo.large {
+    display: block;
+    margin: 0 auto 2em;
+    width: 200px;
+}
+
+#banner {
+    /* background-image: url("images/light-bl.svg"), url("images/light-br.svg"), url("images/overlay.png"), url("../../images/banner.jpg"); */
+    background-image: 
+        url("images/light-bl.svg"),
+        url("images/light-br.svg"),
+        url("images/overlay.png"),
+        url("../../images/stock-images/stock-8.jpg");
+
+        /* stock-2.png */
+        /* stock-3.jpg */
+        /* stock-4.jpg */
+        /* stock-8.jpg */
+}
