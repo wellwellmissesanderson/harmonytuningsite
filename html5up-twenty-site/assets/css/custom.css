@@ -8,16 +8,81 @@
     width: 200px;
 }
 
-#banner {
-    /* background-image: url("images/light-bl.svg"), url("images/light-br.svg"), url("images/overlay.png"), url("../../images/banner.jpg"); */
-    background-image: 
-        url("images/light-bl.svg"),
-        url("images/light-br.svg"),
-        url("images/overlay.png"),
-        url("../../images/stock-images/stock-8.jpg");
-
+/* Main */
+    #banner {
+        /* background-image: url("images/light-bl.svg"), url("images/light-br.svg"), url("images/overlay.png"), url("../../images/banner.jpg"); */
+        
+        /* Great to use: */
         /* stock-2.png */
         /* stock-3.jpg */
         /* stock-4.jpg */
         /* stock-8.jpg */
+        
+        background-image: 
+            url("images/light-bl.svg"),
+            url("images/light-br.svg"),
+            url("images/overlay.png"),
+            url("../../images/stock-images/stock-2.png");
+    }
+
+
+    .contact #banner {
+        padding: 2.5em;
+        background-image:
+            url("images/light-bl.svg"),
+            url("images/light-br.svg"),
+            url("images/overlay.png"),
+            url("../../images/stock-images/stock-3.jpg");
+    }
+
+    .about #banner {
+        padding: 2.5em;
+        background-image:
+            url("images/light-bl.svg"),
+            url("images/light-br.svg"),
+            url("images/overlay.png"),
+            url("../../images/stock-images/stock-4.jpg");
+    }
+
+/* About */
+
+
+.about #footer {
+    padding-bottom: 4em;
+
+    background-attachment: scroll, scroll, scroll, fixed;
+    background-color: #645862;
+    background-position: bottom left, bottom right, top left, top center;
+    background-repeat: no-repeat, no-repeat, repeat, no-repeat;
+    background-size: 25em, 25em, auto, cover;
+    background-image:
+        url("images/light-bl.svg"),
+        url("images/light-br.svg"),
+        url("images/overlay.png"),
+        url("../../images/stock-images/stock-4.jpg");
 }
+
+/* Contact */
+    .contact #main .container .content.font-large {
+        font-size: 2em;
+    }
+
+    .contact #main .wrapper.style4 {
+        padding: 2em 4em;
+    }
+
+    .contact #footer {
+        padding-bottom: 4em;
+
+        background-attachment: scroll, scroll, scroll, fixed;
+		background-color: #645862;
+		/* background-image: url("images/light-bl.svg"), url("images/light-br.svg"), url("images/overlay.png"), url("../../images/banner.jpg"); */
+		background-position: bottom left, bottom right, top left, top center;
+		background-repeat: no-repeat, no-repeat, repeat, no-repeat;
+		background-size: 25em, 25em, auto, cover;
+        background-image:
+            url("images/light-bl.svg"),
+            url("images/light-br.svg"),
+            url("images/overlay.png"),
+            url("../../images/stock-images/stock-3.jpg");
+    }
